@@ -64,6 +64,7 @@ void handleNewMessages(int numNewMessages) {
       welcome += "هل انتهت الكمية ☕\n";
       welcome += "كم كوب شربت اليوم؟\n";
       welcome += "☕💲شراء بن قهوة\n\n";
+       welcome += "🌟supportive push😎";
       bot.sendMessage(chat_id, welcome, "");
       cups=0;
     }
